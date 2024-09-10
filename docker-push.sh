@@ -1,0 +1,1 @@
+docker build -t karthikeya2100/crud-react:latest . && docker push karthikeya2100/crud-react:latest
