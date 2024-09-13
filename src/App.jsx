@@ -42,7 +42,7 @@ export default function App() {
   const [updatePage, setUpdatePage] = useState(1);
   const [deletePage, setDeletePage] = useState(1);
 
-  const API_URL = import.meta.env.API_URL || "http://localhost:3000";
+  const API_URL = process.env.API_URL || "http://localhost:3000";
   console.log("API_URL........", API_URL);
 
   const readColumns = [

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: crud-react
+    environment:
+      - API_URL=http://localhost:9000
+      - PORT=5001
+      - BACKEND_FRAMEWORK=Express.js
+    ports:
+      - '5000:5001'
