@@ -43,7 +43,7 @@ export default function App() {
   const [deletePage, setDeletePage] = useState(1);
 
   const API_URL = process.env.API_URL || "http://localhost:3000";
-  console.log("API_URL........", API_URL);
+  // console.log("API_URL........", API_URL);
 
   const readColumns = [
     {
@@ -235,8 +235,8 @@ export default function App() {
   return (
     <div className="flex flex-col justify-center bg-background p-5">
       <p className="text-lg">
-        Built with React NextUI and{" "}
-        <span className="text-pink-300 uppercase text-xl font-bold">
+        Built with React, NextUI{" "}
+        <span className="text-sky-500 uppercase text-xl font-bold">
           {process.env.BACKEND_FRAMEWORK || "Put Backend Framework Here"}
         </span>
       </p>
@@ -244,7 +244,7 @@ export default function App() {
         <h1 className="text-3xl font-bold">CRUD APP</h1>
         <Switch
           aria-label="Toggle theme"
-          defaultSelected={theme === "dark"}
+          defaultSelected
           size="md"
           color="default"
           startContent={<SunIcon />}
@@ -537,7 +537,7 @@ export default function App() {
             href="https://github.com/karthikeya0800/CRUD-Node"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "skyblue", textDecoration: "underline" }}
+            className="text-sky-500 underline"
           >
             GitHub
           </a>
