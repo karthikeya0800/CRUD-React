@@ -8,7 +8,7 @@ https://hub.docker.com/repository/docker/karthikeya2100/crud-react
 - /api/update-item/:id is to update item
 - /api/delete-item/:id is to delete item
 
-_Default server port is 9000_
+_Default server port is 3000_
 
 _Default client port is 5173_
 
