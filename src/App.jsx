@@ -236,7 +236,7 @@ export default function App() {
     <div className="flex flex-col justify-center bg-background p-5">
       <p className="text-lg">
         Built with React, NextUI{" "}
-        <span className="text-sky-500 uppercase text-xl font-bold">
+        <span className="text-sky-500 uppercase text-xl font-bold whitespace-nowrap">
           {process.env.BACKEND_FRAMEWORK || "Put Backend Framework Here"}
         </span>
       </p>
