@@ -534,7 +534,7 @@ export default function App() {
         <p className="text-sm">
           Source code:{" "}
           <a
-            href="https://github.com/karthikeya0800/CRUD-Node"
+            href={process.env.GITHUB_LINK}
             target="_blank"
             rel="noopener noreferrer"
             className="text-sky-500 underline"

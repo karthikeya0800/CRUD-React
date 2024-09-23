@@ -8,7 +8,8 @@ services:
     environment:
       - API_URL=http://localhost:3000
       - BACKEND_FRAMEWORK=Express.js
-      - TITLE=CRUD-Node
+      - TITLE=CRUD-Django
+      - GITHUB_LINK=https://github.com/karthikeya0800/CRUD-Django
     ports:
       - '5173:5173'
     volumes:
