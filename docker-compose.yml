@@ -6,8 +6,9 @@ services:
       dockerfile: Dockerfile
     container_name: crud-react
     environment:
-      - API_URL=http://localhost:9000
+      - API_URL=http://localhost:3000
       - BACKEND_FRAMEWORK=Express.js
+      - TITLE=CRUD-Node
     ports:
       - '5173:5173'
     volumes:

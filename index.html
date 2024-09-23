@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/crud.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CRUD-Node</title>
+    <title id="page-title">Loading...</title>
+    <script type="module">
+      // Access the environment variable using JavaScript
+      document.getElementById("page-title").textContent =
+      process.env.TITLE
+    </script>
   </head>
   <body>
     <div id="root"></div>
